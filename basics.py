@@ -1,4 +1,4 @@
-# Data Types
+# DATA TYPES
 number = 1
 float = 5.5
 string = 'Joshua'
@@ -8,11 +8,7 @@ CombinedList = ['one', 2, 'three']
 Dictionaries = {'firstname' : 'Joshua', 'age': 24}
 isTrue = True
 
-# print(StringList[0])
-# print(Dictionaries['firstname'])
-
-
-# Arithmetic
+# ARITHMETIC
 number1 = 5
 number2 = 8
 number3 = 10
@@ -28,5 +24,16 @@ power = 2 ** 3 # 2 * 2 * 2 = 8
 multiples = 2 + 3 * 4 + 5 # 19
 specifics = (2 + 3) * (4 + 5) # 45
 
-print(multiples)
-print(specifics)
+# STRINGS
+stringLength = len("This will count the length of a string")
+indexingString = "Hello World"
+slicingString = "Josh Joshua"
+stepSlicingString = '123456789'
+
+print(stringLength)
+print(indexingString[0]) # first letter
+print(indexingString[-1]) # last letter
+print(slicingString[5:]) # Joshua
+print(slicingString[0:4]) # Josh
+print(stepSlicingString[::2]) # 13579
+print(stepSlicingString[0:5:2]) # 135
