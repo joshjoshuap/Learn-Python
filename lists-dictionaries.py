@@ -16,8 +16,7 @@ sortedList = randomNumberLists # calling the sorted list
 # print(sortedList) # [1, 2, 4, 6, 7, 8]
 
 # --- DICTIONARIES / OBJECTS ---
-userInfo = {'name' : 'Jose', 'age' : 100, 'address' : 'Quezon City', 
-            'grades' : {'quiz1' : 100, 'quiz2' : 80}
+userInfo = {'name' : 'Jose', 'age' : 100, 'address' : 'Quezon City', 'grades' : {'quiz1' : 100, 'quiz2' : 80}
     }
 
 userInfo['grades']['quiz1'] = 74
