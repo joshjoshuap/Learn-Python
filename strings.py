@@ -1,4 +1,28 @@
-# STRING INDEXING / SLICING
+# Basics
+print('Hello World')
+
+# F String
+name = 'Joshua'
+print(f'Hello {name}')
+
+
+# String with User Input
+username = input('What is your name? ') # ask for user input console
+print(f'Hello {username}')
+
+# Get Letter using Index
+letterIndex = "Joshua"[-1]
+print(letterIndex) #a
+
+# Get Length of String
+nameLength = len('Hello')
+print(nameLength) #5
+
+# Convert Integer to String
+convertInteger = str(12345)
+print(f"Converted: {convertInteger}")
+
+# String Indexing / Slicing
 indexingString = "Hello World"
 slicingString = "Josh Joshua"
 stepSlicingString = '123456789'
@@ -10,7 +34,7 @@ stepSlicingString = '123456789'
 # print(stepSlicingString[::2]) # 13579
 # print(stepSlicingString[0:5:2]) # 135
 
-# STRING METHODS
+# String Methods
 firstName = 'Joshua'
 lastname = 'Pautanes'
 helloWorld = 'Hello World'
@@ -29,7 +53,7 @@ splitString = helloWorld.split();
 # print(upperCase) # PAUTANES
 # print(splitString) # ['Hello', 'World']
 
-# STRING FORMATTING
+# String Formatiing
 name = 'Joshua'
 age = 23
 address = 'Quezon City'

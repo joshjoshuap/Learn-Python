@@ -1,4 +1,4 @@
-# ARITHMETIC
+# Arithmetic
 number1 = 5
 number2 = 8
 number3 = 10
@@ -14,8 +14,17 @@ power = 2 ** 3
 multiples = 2 + 3 * 4 + 5 
 specifics = (2 + 3) * (4 + 5) 
 
+roundNumber = round(2.56834351, 2)
+
 # print(remainder) # 1
 # print(noRemainder) # 0
 # print(power) # 2 * 2 * 2 = 8
 # print(multiples) # 19
 # print(specifics) # 45
+print(roundNumber)
+
+# Convert String to Integer
+numberString1 = int('5')
+numberString2 = int('10')
+print(numberString1 + numberString2)
+
