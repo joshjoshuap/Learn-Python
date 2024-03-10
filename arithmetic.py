@@ -1,4 +1,4 @@
-# --- ARITHMETIC ---
+# ARITHMETIC
 number1 = 5
 number2 = 8
 number3 = 10

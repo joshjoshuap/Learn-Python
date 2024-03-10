@@ -1,4 +1,4 @@
-# --- LISTS ---
+# LISTS
 firstLists = [1,2,3]
 secondLists =[5,6,7]
 combinedLists = firstLists + secondLists
@@ -15,17 +15,16 @@ sortedList = randomNumberLists # calling the sorted list
 # print(secondLists)
 # print(sortedList) # [1, 2, 4, 6, 7, 8]
 
-# --- DICTIONARIES / OBJECTS ---
+# DICTIONARIES / OBJECTS
 userInfo = {'name' : 'Jose', 'age' : 100, 'address' : 'Quezon City', 'grades' : {'quiz1' : 100, 'quiz2' : 80}
     }
-
 userInfo['grades']['quiz1'] = 74
 
 # print(userInfo['name']) # Jose
 # print(userInfo['grades']['quiz2']) # 80
 # print(userInfo['grades']['quiz1']) # 74
 
-# --- TUPLES ---
+# TUPLES 
 numberTuples = (1,2,3)
 sampleNumberLists = [1,2,3]
 
@@ -35,7 +34,7 @@ sampleNumberLists[0] = 'One'
 # print(sampleNumberLists)
 # print(numberTuples) # error, tuples can't change value
 
-# --- SET ---
+# SET
 listOfNumbers = [1,1,1,2,3,3,4,5,6,6,6,7,7,8,9,9,9]
 newSet = set(listOfNumbers) # remove repeatedly value in lists
 

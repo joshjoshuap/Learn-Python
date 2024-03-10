@@ -1,4 +1,4 @@
-# --- STRING INDEXING / SLICING ---
+# STRING INDEXING / SLICING
 indexingString = "Hello World"
 slicingString = "Josh Joshua"
 stepSlicingString = '123456789'
@@ -10,7 +10,7 @@ stepSlicingString = '123456789'
 # print(stepSlicingString[::2]) # 13579
 # print(stepSlicingString[0:5:2]) # 135
 
-# --- STRING METHODS ---
+# STRING METHODS
 firstName = 'Joshua'
 lastname = 'Pautanes'
 helloWorld = 'Hello World'
@@ -29,7 +29,7 @@ splitString = helloWorld.split();
 # print(upperCase) # PAUTANES
 # print(splitString) # ['Hello', 'World']
 
-# --- STRING FORMATTING ---
+# STRING FORMATTING
 name = 'Joshua'
 age = 23
 address = 'Quezon City'
