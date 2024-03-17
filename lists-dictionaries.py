@@ -15,6 +15,11 @@ sortedList = randomNumberLists # calling the sorted list
 # print(secondLists)
 # print(sortedList) # [1, 2, 4, 6, 7, 8]
 
+# NESTED LISTS / MULTIPLE LIST
+nestedlist = [firstLists, secondLists]
+print(nestedlist) #[['One', 2, 3], [5, 6, 8]]
+print(nestedlist[0][0]) # One
+
 # DICTIONARIES / OBJECTS
 userInfo = {'name' : 'Jose', 'age' : 100, 'address' : 'Quezon City', 'grades' : {'quiz1' : 100, 'quiz2' : 80}
     }
