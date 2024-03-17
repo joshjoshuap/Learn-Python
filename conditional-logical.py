@@ -1,5 +1,5 @@
 # IF Else
-age = 19
+age = 2
 if age <= 2:
     print('Hello Baby')
 elif age > 2 and age <= 12:
@@ -11,4 +11,11 @@ elif age > 18 and age <= 60:
 elif age > 60:
     print('Veteran')
 else:
-    print('Enter valid age only')
+    print('Enter valid age only')   
+    
+# Odd / Even
+number = int(input("Input a number: ")) 
+if number % 2 == 0:
+    print("Number is Even")   
+elif number % 1 == 0:
+    print("Number is ODD")

@@ -5,7 +5,6 @@ print('Hello World')
 name = 'Joshua'
 print(f'Hello {name}')
 
-
 # String with User Input
 username = input('What is your name? ') # ask for user input console
 print(f'Hello {username}')
@@ -39,7 +38,6 @@ firstName = 'Joshua'
 lastname = 'Pautanes'
 helloWorld = 'Hello World'
 multipleLetter = 'J' * 10
-
 stringConcat = firstName + ' ' + lastname
 lowerCase = firstName.lower()
 upperCase = lastname.upper()
