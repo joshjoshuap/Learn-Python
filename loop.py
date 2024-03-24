@@ -16,9 +16,8 @@ for evenNumber in numberLists:
         print(evenNumber) 
 
 # For in Range
-number = 10;
-for num in range(1, number+1):
-    print('range', num)
+for num in range(6):
+    print('range', num + 1)
 
 # ADDING BY LOOPING
 addNumbers = 0
