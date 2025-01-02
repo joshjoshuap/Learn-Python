@@ -26,5 +26,8 @@ roundNumber = round(2.56834351, 2) # number, decimal point
 # Convert String to Integer
 numberString1 = int('5')
 numberString2 = int('10')
+floatString = float('10.5')
 print(numberString1 + numberString2)
+print(floatString)
+print(floatString + numberString1)
 
