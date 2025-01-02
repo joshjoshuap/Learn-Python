@@ -5,13 +5,15 @@ print('Hello World')
 name = 'Joshua'
 print(f'Hello {name}')
 
-# String with User Input
-username = input('What is your name? ') # ask for user input console
-print(f'Hello {username}')
-
 # Get Letter using Index
 letterIndex = "Joshua"[-1]
+numberString = "123456789"
 print(letterIndex) #a
+print(numberString[1:8:2]) # 2468
+print(numberString[1::2]) # 2468
+print(numberString[::]) # 012345678
+print(numberString[::-1]) # 87654321
+print(numberString[::-2]) # 97531
 
 # Get Length of String
 nameLength = len('Hello')

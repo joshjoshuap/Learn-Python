@@ -20,3 +20,10 @@ def addNumbers():
     return total
 
 print(addNumbers())
+
+# Passing Values
+def name(inputName):
+    print(f"Hello {inputName}")
+    
+userInput = input("What is your name? ")
+name(userInput)
