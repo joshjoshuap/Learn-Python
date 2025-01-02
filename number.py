@@ -1,3 +1,5 @@
+# Reference: https://docs.python.org/3/library/math.html
+
 # Arithmetic
 number1 = 5
 number2 = 8
