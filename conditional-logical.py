@@ -14,8 +14,21 @@ else:
     print('Enter valid age only')   
     
 # Odd / Even
-number = int(input("Input a number: ")) 
-if number % 2 == 0:
-    print("Number is Even")   
-elif number % 1 == 0:
-    print("Number is ODD")
+# number = int(input("Input a number: ")) 
+# if number % 2 == 0:
+#     print("Number is Even")   
+# elif number % 1 == 0:
+#     print("Number is ODD")
+    
+# Logical
+userAge = 18
+userLicensed = True
+
+if userAge >= 18 and userLicensed == True:
+    print('You are allowed to driver')
+elif userAge >= 18 and userLicensed == False:
+    print('You need a driver license first')
+elif userAge <= 18 and userLicensed == True:
+    print("You're driver license is invalid, cause your a minor")
+else:
+    print('You are not allowed to take license and drive')
