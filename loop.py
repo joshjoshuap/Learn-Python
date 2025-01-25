@@ -6,6 +6,9 @@ x = 0
 while x <= 5:
     print(x)
     x += 1
+    break
+else: # only trigger if x > 5
+    print('Nothing to print')
 
 # FOR LOOP
 for num in numberLists:
