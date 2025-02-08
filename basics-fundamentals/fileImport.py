@@ -1,4 +1,4 @@
-from sampleImport.math import add, sub
+from sample_import.math import add, sub
 
 
 add(5, 10)
